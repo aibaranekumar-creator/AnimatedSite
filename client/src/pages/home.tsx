@@ -306,7 +306,7 @@ const Services = () => {
 
 const Industries = () => {
   const industries = [
-    "Education & Schools", "Hospitals & Healthcare", "Restaurants & Hospitality",
+    "Education & Schools", "Hospitals & Healthcare", "Logistics",
     "Restaurants & Real Estate", "Manufacturing", "E-Commerce & Retail", "SaaS & Startups", "Custom Solutions"
   ];
 

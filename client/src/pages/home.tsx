@@ -55,7 +55,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
           <img src={logoUrl} alt="iAtom Logo" className="h-10 w-auto group-hover:drop-shadow-[0_0_10px_rgba(0,255,136,0.5)] transition-all" />
-          <span className="text-xl font-bold font-heading tracking-tight">iAtom <span className="text-primary">Technologies</span></span>
+          <span className="text-xl font-bold font-heading tracking-tight">iAtom</span>
         </a>
 
         {/* Desktop Nav */}
@@ -420,7 +420,7 @@ const Contact = () => {
               </div>
               <div>
                 <div className="font-bold">Email Us</div>
-                <div className="text-muted-foreground">hello@iatomtechnologies.com</div>
+                <div className="text-muted-foreground">hello@iatom.com</div>
               </div>
             </div>
           </div>
@@ -495,7 +495,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 mb-6">
           <img src={logoUrl} alt="iAtom Logo" className="h-8 w-auto opacity-80" />
-          <span className="text-xl font-bold font-heading">iAtom Technologies</span>
+          <span className="text-xl font-bold font-heading">iAtom</span>
         </div>
         <div className="flex justify-center gap-8 mb-8 text-sm text-muted-foreground">
           <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
@@ -504,7 +504,7 @@ const Footer = () => {
           <a href="#" className="hover:text-primary transition-colors">Twitter</a>
         </div>
         <p className="text-xs text-muted-foreground/50">
-          © {new Date().getFullYear()} iAtom Technologies. All rights reserved.
+          © {new Date().getFullYear()} iAtom. All rights reserved.
         </p>
       </div>
     </footer>

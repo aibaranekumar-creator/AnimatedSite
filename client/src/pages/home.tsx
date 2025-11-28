@@ -166,9 +166,49 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-            <Button size="lg" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all text-lg px-10 h-16 shadow-[0_0_30px_-5px_rgba(0,255,136,0.6)] rounded-full">
-              Book Free Consultation
-            </Button>
+            <motion.div 
+              className="relative w-fit"
+              whileHover="hover"
+            >
+              {/* Exploding particles */}
+              {[...Array(8)].map((_, i) => (
+                <motion.div
+                  key={i}
+                  className="absolute w-2 h-2 bg-primary rounded-full"
+                  style={{
+                    left: '50%',
+                    top: '50%',
+                    marginLeft: -4,
+                    marginTop: -4,
+                  }}
+                  variants={{
+                    hover: {
+                      x: Math.cos((i / 8) * Math.PI * 2) * 60,
+                      y: Math.sin((i / 8) * Math.PI * 2) * 60,
+                      opacity: [1, 0],
+                      transition: { duration: 0.6, ease: "easeOut" }
+                    }
+                  }}
+                />
+              ))}
+              
+              <Button 
+                size="lg" 
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} 
+                className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-10 h-16 shadow-[0_0_30px_-5px_rgba(0,255,136,0.6)] rounded-full relative z-10 w-full"
+                asChild
+              >
+                <motion.button
+                  variants={{
+                    hover: {
+                      scale: 1.1,
+                    }
+                  }}
+                >
+                  Book Free Consultation
+                </motion.button>
+              </Button>
+            </motion.div>
           </div>
           
           <motion.div 

@@ -147,10 +147,10 @@ const Hero = () => {
           </motion.div>
 
           <h1 className="text-5xl md:text-7xl font-bold font-heading leading-[1.1] mb-6 tracking-tight">
-            AI, Automation & <br/>
+            Unlock Growth with <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400 text-glow">
-              DevOps
-            </span> to Power Your Business
+              AI
+            </span> Tailored to Your Business
           </h1>
 
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-xl">

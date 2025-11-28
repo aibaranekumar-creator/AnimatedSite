@@ -194,7 +194,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} 
-                className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-10 h-16 shadow-[0_0_30px_-5px_rgba(0,255,136,0.6)] rounded-full relative z-10 w-full"
+                className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-10 h-16 shadow-[0_0_30px_-5px_rgba(0,255,136,0.6)] rounded-full relative z-10 w-full flex items-center justify-center"
                 asChild
               >
                 <motion.button

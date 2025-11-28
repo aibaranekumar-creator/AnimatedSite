@@ -388,8 +388,8 @@ const Process = () => {
 
 const TechStack = () => {
   const techs = [
-    "AI & LLMs", "n8n Automation", "REST APIs", "Azure Cloud", "AWS", "Docker", 
-    "PostgreSQL", "React", "Node.js", "Python", "CI/CD Pipelines"
+    "AI & Machine Learning", "Workflow Automation", "API Engineering", "Cloud Infrastructure", 
+    "Containers & DevOps", "Modern Databases", "Serverless Architecture", "Secure Deployments"
   ];
 
   return (

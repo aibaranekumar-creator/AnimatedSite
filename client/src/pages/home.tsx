@@ -137,7 +137,6 @@ const Hero = () => {
           />
         </div>
       </div>
-
       <div className="container mx-auto px-6 relative z-30 flex flex-col items-center text-center max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -154,7 +153,7 @@ const Hero = () => {
             <span className="text-sm font-medium text-primary">AI-Powered Innovation</span>
           </motion.div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold font-heading leading-[1.1] mb-8 tracking-tight">
+          <h1 className="sm:text-5xl md:text-7xl lg:text-8xl font-bold font-heading mb-8 tracking-tight text-[90px]">
             Unlock Growth with <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400 text-glow">
               AI

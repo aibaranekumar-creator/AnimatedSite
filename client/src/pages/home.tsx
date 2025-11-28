@@ -166,10 +166,10 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all text-lg px-10 h-16 shadow-[0_0_30px_-5px_rgba(0,255,136,0.6)] rounded-full">
+            <Button size="lg" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all text-lg px-10 h-16 shadow-[0_0_30px_-5px_rgba(0,255,136,0.6)] rounded-full">
               Book Free Consultation
             </Button>
-            <Button size="lg" variant="outline" className="border-white/20 hover:bg-white/10 text-lg px-10 h-16 rounded-full backdrop-blur-md bg-white/5">
+            <Button size="lg" variant="outline" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="border-white/20 hover:bg-white/10 text-lg px-10 h-16 rounded-full backdrop-blur-md bg-white/5">
               Talk About Your Project
             </Button>
           </div>

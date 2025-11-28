@@ -1,0 +1,248 @@
+You are an expert full-stack web designer and developer.
+
+Build a modern, responsive single-page website for a SaaS-style company called **"iAtom Technologies"**.
+
+## Brand & Positioning
+
+iAtom Technologies provides:
+
+* IT services
+* AI & automation solutions
+* SaaS product development
+* DevOps
+* Cloud Infrastructure (Azure, AWS, GCP)
+* IT Infrastructure
+* Website & web-application development
+* API integrations
+* Web hosting, SSL and deployment support
+
+The unique angle:
+iAtom Technologies combines **DevOps + AI + domain expertise** to automate workflows for **any industry**, with strengths in:
+
+* SME automation
+* SaaS product development
+* API-driven tools
+* Web hosting & deployment
+
+Tone: **professional, clean, bold, tech-focused**, but still simple for non-technical users.
+
+## Design Requirements
+
+* Dark theme color palette:
+
+  * Background: pure black or very dark grey
+  * Primary accent: `ROY001` (use this as the brand highlight color)
+  * Secondary: white for text and key elements
+* Overall look: **modern dark SaaS landing page** with a slightly futuristic feel.
+* Use strong contrast between sections with different dark shades.
+* Rounded cards and soft but visible shadows suitable for dark mode.
+
+### Animation Requirements (Very Important)
+
+* The **home/hero section must be highly animated**:
+
+  * A continuous animated background (e.g., moving gradient, floating particles, glowing geometric shapes, or subtle grid lines).
+  * Smooth entrance animations for the main heading, subheading, buttons, and hero illustration (fade/slide/scale in).
+* **Global hover effects**:
+
+  * All buttons should have smooth hover transitions (scale, glow, border or background change).
+  * Service cards and industry cards should slightly lift, glow, or scale on hover.
+  * Navigation links should have a hover underline, glow, or subtle color transition.
+* **Scroll / on-view animations**:
+
+  * Each section (Services, Industries, How We Work, Tech Stack, Testimonials, Contact) should animate into view when scrolled to (e.g., fade-up, slide-in, or staggered card animations) using JavaScript + CSS classes or IntersectionObserver.
+* **Micro-interactions**:
+
+  * Add small animations on icons or badges when hovered.
+  * Contact form inputs can have subtle focus/active states (glow/border effects).
+* Animations must be **smooth and performance-friendly**, not overwhelming.
+* Everything must remain fully responsive on all screen sizes.
+
+## Tech Stack
+
+* Use **HTML, CSS, and vanilla JavaScript**.
+* No React, no Tailwind, no frameworks.
+* Provide full working code (HTML, CSS, JS).
+
+## Site Structure & Content
+
+### 1. Navigation (sticky)
+
+* Logo: `iAtom Technologies`
+* Links: Home, Services, Industries, How We Work, Tech Stack, Contact
+* Mobile-friendly hamburger menu.
+
+### 2. Hero Section
+
+Big heading:
+“AI, Automation & DevOps to Power Your Business”
+
+Slogan:
+“Unlock Growth with AI Tailored to Your Business”
+
+Subheading:
+“We build SaaS products, automation workflows, websites, and secure cloud systems so you can focus on scaling your business.”
+
+Buttons:
+
+* “Book a Free Consultation”
+* “Talk About Your Project”
+
+Small text:
+“We help businesses across all industries automate manual work and launch digital platforms faster.”
+
+Include an abstract tech illustration or shapes (no real images required).
+
+### 3. Services Section
+
+Title: “What We Offer”
+
+Show these services in clean cards:
+
+1. **AI & Automation Workflows**
+
+   * “End-to-end automation using AI, custom APIs, and workflow tools to eliminate manual tasks.”
+
+2. **Custom SaaS & Web Applications**
+
+   * “From idea to launch—SaaS platforms, dashboards, and internal tools built for your business.”
+
+3. **DevOps & Cloud Infrastructure**
+
+   * “CI/CD pipelines, Docker containers, load balancing, monitoring, and scalable cloud systems.”
+
+4. **Integration for Any Domain**
+
+   * “GST validation APIs, ERP integrations, CRM automations, schedule systems, or any custom workflow.”
+
+5. **Websites & Landing Pages**
+
+   * “High-conversion, modern websites for branding, marketing, or launching your SaaS.”
+
+6. **Hosting, SSL & Maintenance**
+
+   * “Deployment, hosting, SSL certificates, monitoring, updates, and long-term support.”
+
+### 4. Industries / Use-Cases Section
+
+Title: “Built for Your Industry”
+
+Intro:
+“We can automate workflows for any domain. Here are a few where we’re especially strong.”
+
+Use grid-style industry cards:
+
+* **Education & Schools**
+
+  * “Digitize attendance, automate fee reminders, streamline admissions, and build parent/staff dashboards.”
+
+* **Hospitals & Healthcare**
+
+  * “Automate appointment scheduling, patient intake forms, lab reporting workflows, and digital medical dashboards.”
+
+* **Restaurants & Hospitality**
+
+  * “Online ordering systems, automated reservations, kitchen workflow dashboards, and staff shift scheduling.”
+
+* **Real Estate & Property Management**
+
+  * “Lead automation, tenant onboarding, rent reminders, maintenance ticketing, and listing portals.”
+
+* **Manufacturing & Operations**
+
+  * “Production tracking, automated approvals, digital SOPs, inventory management, and workflow monitoring.”
+
+* **E-Commerce & Retail**
+
+  * “Order automation, pricing engines, product sync tools, inventory dashboards, and AI customer support.”
+
+* **SaaS & Startups**
+
+  * “MVP development, workflow automation, dashboards, API integrations, and rapid iteration.”
+
+* **Custom Solutions**
+
+  * “Tell us your domain—education, healthcare, retail, finance, operations—and we’ll build a tailored workflow.”
+
+### 5. How We Work Section
+
+4-step timeline or grid:
+
+1. **Discover**
+
+   * “We understand your process, pain points, and goals.”
+
+2. **Design**
+
+   * “We architect automation flows, app features, or integrations.”
+
+3. **Build**
+
+   * “We develop, test, and optimize your solution with clean, scalable code.”
+
+4. **Launch & Support**
+
+   * “Deployment, SSL security, monitoring, and long-term improvements.”
+
+### 6. Tech Stack Section
+
+Title: “Tech We Love”
+
+Show tags/badges:
+
+* AI & LLMs
+
+* n8n Automation
+
+* REST APIs
+
+* Azure Cloud
+
+* Docker
+
+* PostgreSQL/MySQL
+
+* CI/CD Pipelines
+
+### 7. Testimonials (Placeholder)
+
+Add 2–3 example testimonial cards:
+
+* “Fast delivery with great quality.”
+* “They automated tasks that saved us countless hours.”
+* “Clear communication and excellent support.”
+
+### 8. Contact Section
+
+Title: “Let’s Automate Your Work”
+
+Include a clean contact form:
+
+* Name
+* Email
+* Company
+* Message (“What do you want to build or automate?”)
+
+Button: “Send Message”
+
+Form should show a JS-based success message (no backend needed).
+
+Below form, include sample contact info:
+
+* Email: [hello@iatomtechnologies.com](mailto:hello@iatomtechnologies.com)
+* Location: Remote • Serving clients worldwide
+
+### 9. Footer
+
+* Logo text: iAtom Technologies
+* Privacy Policy / Terms (placeholder links)
+* Text: “© [current year] iAtom Technologies. All rights reserved.”
+
+## Extra Features
+
+* Smooth scrolling for nav.
+* Section fade-in animations via IntersectionObserver.
+* Hover animations on cards and buttons.
+* Clean formatting and developer-friendly code.
+
+Deliver the complete website code (HTML + CSS + JS) that runs instantly in the browser.

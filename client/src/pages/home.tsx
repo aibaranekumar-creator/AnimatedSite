@@ -164,7 +164,7 @@ const Hero = () => {
             We build SaaS products, automation workflows, websites, and secure cloud systems so you can focus on scaling your business.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <motion.div 
               className="relative w-fit"
               whileHover="hover"

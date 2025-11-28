@@ -506,6 +506,11 @@ const Contact = () => {
               </div>
 
               <div className="space-y-2">
+                <label className="text-sm font-medium">Phone Number</label>
+                <Input required type="tel" placeholder="+1 (555) 123-4567" className="bg-background/50 border-white/10 focus:border-primary transition-colors h-12" />
+              </div>
+
+              <div className="space-y-2">
                 <label className="text-sm font-medium">Message</label>
                 <Textarea required placeholder="What do you want to build or automate?" className="bg-background/50 border-white/10 focus:border-primary transition-colors min-h-[120px]" />
               </div>

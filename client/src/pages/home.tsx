@@ -420,7 +420,7 @@ const Contact = () => {
               </div>
               <div>
                 <div className="font-bold">Email Us</div>
-                <div className="text-muted-foreground">hello@iatom.com</div>
+                <div className="text-muted-foreground">hello@iatom.in</div>
               </div>
             </div>
           </div>

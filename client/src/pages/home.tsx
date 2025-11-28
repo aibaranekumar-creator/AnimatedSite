@@ -20,6 +20,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
+import logoUrl from "@assets/logo_1764317748065.png";
+import heroImgUrl from "@assets/87b7232d6ba7288d87d98760b8db5e62_1764317724221.jpg";
 
 // --- Components ---
 
@@ -52,7 +54,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
-          <img src="/attached_assets/logo_1764317748065.png" alt="iAtom Logo" className="h-10 w-auto group-hover:drop-shadow-[0_0_10px_rgba(0,255,136,0.5)] transition-all" />
+          <img src={logoUrl} alt="iAtom Logo" className="h-10 w-auto group-hover:drop-shadow-[0_0_10px_rgba(0,255,136,0.5)] transition-all" />
           <span className="text-xl font-bold font-heading tracking-tight">iAtom <span className="text-primary">Technologies</span></span>
         </a>
 
@@ -184,7 +186,7 @@ const Hero = () => {
             
             <div className="absolute inset-4 bg-background rounded-xl overflow-hidden border border-white/10 z-20 flex items-center justify-center group hover:scale-[1.02] transition-transform duration-500">
                <img 
-                src="/attached_assets/87b7232d6ba7288d87d98760b8db5e62_1764317724221.jpg" 
+                src={heroImgUrl} 
                 alt="AI Dashboard Interface" 
                 className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
                />
@@ -514,7 +516,7 @@ const Footer = () => {
     <footer className="bg-black py-12 border-t border-white/10">
       <div className="container mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 mb-6">
-          <img src="/attached_assets/logo_1764317748065.png" alt="iAtom Logo" className="h-8 w-auto opacity-80" />
+          <img src={logoUrl} alt="iAtom Logo" className="h-8 w-auto opacity-80" />
           <span className="text-xl font-bold font-heading">iAtom Technologies</span>
         </div>
         <div className="flex justify-center gap-8 mb-8 text-sm text-muted-foreground">

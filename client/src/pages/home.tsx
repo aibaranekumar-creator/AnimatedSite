@@ -54,7 +54,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
-          <img src={logoUrl} alt="iAtom Logo" className="h-10 w-auto group-hover:drop-shadow-[0_0_10px_rgba(0,255,136,0.5)] transition-all" />
+          <img src={logoUrl} alt="iAtom Logo" className="h-[3.25rem] w-auto group-hover:drop-shadow-[0_0_10px_rgba(0,255,136,0.5)] transition-all" />
           <span className="text-xl font-bold font-heading tracking-tight">iAtom</span>
         </a>
 
@@ -531,7 +531,7 @@ const Footer = () => {
     <footer className="bg-black py-12 border-t border-white/10">
       <div className="container mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 mb-6">
-          <img src={logoUrl} alt="iAtom Logo" className="h-8 w-auto opacity-80" />
+          <img src={logoUrl} alt="iAtom Logo" className="h-[2.6rem] w-auto opacity-80" />
           <span className="text-xl font-bold font-heading">iAtom</span>
         </div>
         <div className="flex justify-center gap-8 mb-8 text-sm text-muted-foreground">

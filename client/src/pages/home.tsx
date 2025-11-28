@@ -153,7 +153,7 @@ const Hero = () => {
             <span className="text-sm font-medium text-primary">AI-Powered Innovation</span>
           </motion.div>
 
-          <h1 className="sm:text-5xl md:text-7xl lg:text-8xl font-bold font-heading mb-8 tracking-tight text-[90px]">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold font-heading mb-8 tracking-tight">
             Unlock Growth with <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400 text-glow">
               AI
@@ -489,7 +489,7 @@ const Contact = () => {
             </motion.div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-sm font-medium">Name</label>
                   <Input required placeholder="John Doe" className="bg-background/50 border-white/10 focus:border-primary transition-colors h-12" />
@@ -533,7 +533,7 @@ const Footer = () => {
           <img src={logoUrl} alt="iAtom Logo" className="h-[3.12rem] w-auto opacity-80" />
           <span className="text-xl font-bold font-heading">iAtom</span>
         </div>
-        <div className="flex justify-center gap-8 mb-8 text-sm text-muted-foreground">
+        <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8 text-sm text-muted-foreground">
           <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
           <a href="#" className="hover:text-primary transition-colors">LinkedIn</a>

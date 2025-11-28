@@ -160,7 +160,7 @@ const Hero = () => {
             </span> Tailored to Your Business
           </h1>
 
-          <p className="text-xl md:text-2xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
+          <p className="md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto text-[22px]">
             We build SaaS products, automation workflows, websites, and secure cloud systems so you can focus on scaling your business.
           </p>
 

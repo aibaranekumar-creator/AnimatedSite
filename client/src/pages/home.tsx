@@ -507,7 +507,7 @@ const Contact = () => {
 
               <div className="space-y-2">
                 <label className="text-sm font-medium">Phone Number</label>
-                <Input required type="tel" placeholder="+91 98765 43210" className="bg-background/50 border-white/10 focus:border-primary transition-colors h-12" />
+                <Input required type="tel" placeholder="+91 12345 67890" className="bg-background/50 border-white/10 focus:border-primary transition-colors h-12" />
               </div>
 
               <div className="space-y-2">

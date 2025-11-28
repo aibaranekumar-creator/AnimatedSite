@@ -151,7 +151,7 @@ const Hero = () => {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 border border-primary/50 mb-8 backdrop-blur-sm neon-glow"
           >
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-            <span className="text-sm font-medium text-primary">Powering Digital Transformation</span>
+            <span className="text-sm font-medium text-primary">AI-Powered Innovation</span>
           </motion.div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-heading leading-[1.1] mb-8 tracking-tight">

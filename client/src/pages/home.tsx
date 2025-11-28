@@ -531,7 +531,6 @@ const Footer = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 mb-6">
           <img src={logoUrl} alt="iAtom Logo" className="h-[3.12rem] w-auto opacity-80" />
-          <span className="text-xl font-bold font-heading">iAtom</span>
         </div>
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8 text-sm text-muted-foreground">
           <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>

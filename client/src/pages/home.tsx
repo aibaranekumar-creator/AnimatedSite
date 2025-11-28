@@ -115,11 +115,11 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/60 z-10"></div>
+        <div className="absolute inset-0 bg-black/50 z-10"></div>
         <img 
           src={heroImgUrl} 
           alt="Background" 
-          className="absolute inset-0 w-full h-full object-cover opacity-50"
+          className="absolute inset-0 w-full h-full object-cover opacity-60"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/40 to-background z-10"></div>
         

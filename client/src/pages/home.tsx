@@ -147,7 +147,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 border border-primary/50 mb-8 backdrop-blur-sm neon-glow"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 border border-primary/50 backdrop-blur-sm neon-glow pt-[8px] pb-[8px] mt-[40px] mb-[40px] pl-[20px] pr-[20px]"
           >
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
             <span className="text-sm font-medium text-primary">AI-Powered Innovation</span>

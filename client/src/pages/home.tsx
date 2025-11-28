@@ -149,7 +149,7 @@ const Hero = () => {
             transition={{ delay: 0.2 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 border border-primary/50 backdrop-blur-sm neon-glow pt-[8px] pb-[8px] mt-[40px] mb-[40px] pl-[20px] pr-[20px]"
           >
-            <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            <Zap className="w-4 h-4 text-primary animate-pulse" />
             <span className="text-sm font-medium text-primary">AI-Powered Innovation</span>
           </motion.div>
 
@@ -535,7 +535,7 @@ const Footer = () => {
     <footer className="bg-black py-12 border-t border-white/10">
       <div className="container mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 mb-6">
-          <img src={logoUrl} alt="iAtom Logo" className="h-[5rem] w-auto opacity-80" />
+          <img src={logoUrl} alt="iAtom Logo" className="h-[7rem] w-auto opacity-80" />
         </div>
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8 text-sm text-muted-foreground">
           <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>

@@ -270,8 +270,8 @@ const Services = () => {
 
 const Industries = () => {
   const industries = [
-    "Education & Schools", "Hospitals & Healthcare", "Restaurants & Hospitality",
-    "Real Estate", "Manufacturing", "E-Commerce & Retail", "SaaS & Startups", "Custom Solutions"
+    "Restaurants & Hospitality",
+    "Real Estate & Property Management"
   ];
 
   return (

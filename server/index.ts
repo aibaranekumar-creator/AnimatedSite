@@ -85,14 +85,22 @@ app.use((req, res, next) => {
   // this serves both the API and the client.
   // It is the only port that is not firewalled.
   const port = parseInt(process.env.PORT || "5000", 10);
-  httpServer.listen(
-    {
-      port,
-      host: "0.0.0.0",
-      reusePort: true,
-    },
-    () => {
-      log(`serving on port ${port}`);
-    },
-  );
+  const serverOptions: {
+    port: number;
+    host: string;
+    reusePort?: boolean;
+  } = {
+    port,
+    host: "0.0.0.0",
+  };
+
+  // Windows does not support SO_REUSEPORT on TCP sockets, so only enable it
+  // when the current platform allows it.
+  if (process.platform !== "win32") {
+    serverOptions.reusePort = true;
+  }
+
+  httpServer.listen(serverOptions, () => {
+    log(`serving on port ${port}`);
+  });
 })();

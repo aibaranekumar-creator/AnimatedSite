@@ -21,7 +21,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import logoUrl from "@assets/logo_1764317748065.png";
-import heroImgUrl from "@assets/87b7232d6ba7288d87d98760b8db5e62_1764317724221.jpg";
+import heroImgUrl from "@assets/generated_images/futuristic_ai_and_automation_abstract_concept_with_neon_green_accents.png";
 
 // --- Components ---
 

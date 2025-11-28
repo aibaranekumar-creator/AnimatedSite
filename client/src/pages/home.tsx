@@ -53,7 +53,7 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2 group">
+        <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center gap-2 group cursor-pointer">
           <img src={logoUrl} alt="iAtom Logo" className="h-[3.12rem] w-auto group-hover:drop-shadow-[0_0_10px_rgba(0,255,136,0.5)] transition-all" />
           <span className="text-xl font-bold font-heading tracking-tight">iAtom</span>
         </a>
